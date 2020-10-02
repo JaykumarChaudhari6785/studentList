@@ -19,9 +19,9 @@ public class StudentList {
         System.out.println("A simple app");
 
         // create an array of 2 Students
-        Student[] students = new Student[3];
+        Student[] students = new Student[4];
 
-        for (int i = 0; i > students.length; i++) {
+        for (int i = 0; i < students.length; i++) {
 
             System.out.println("Enter a name");
             String name = input.nextLine();
